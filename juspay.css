@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    padding-left: 30px;
+    padding-top: 0px;
+    margin-top: -1ch;
+
+}
+.textimg{
+
+    height: 600px;
+    width: 50%;
+    padding: 5cap;
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+main{
+    padding-top: 2cap;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* background-color:burlywood; */
+    padding-left: 90px;
+    padding-right: 90px;
+}
+nav{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+body{
+    background-color: rgb(30, 30, 30);
+}
+i{
+    font-size:xx-large;
+    padding: 10px;
+    color: blueviolet;
+}
+ul{
+    display: flex;
+    /* font-size: 1rem;
+     */
+    font-weight: 10;
+    gap: 50px;
+    text-decoration: aliceblue;
+    list-style: none;
+}
+.text{
+    padding-left: 10px;
+}
+.text h2{
+    font-size: 2.625rem;
+    color: #80a3ea;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text h1{
+    font-size: 5.025rem;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+.text p{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 1.9;
+}
+.text button{
+    background-color: rgb(0, 85, 255);
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 14px 20px;
+    margin-top: 5%;
+}
+button{
+    border: none;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-right: 3rem;
+    padding: 12px 16px;
+    margin-top: -0.8rem;
+}
+.le{
+    background-color: #80a3ea;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 800;
+}
+.le button{
+    border: none;
+    background-color: #ffffff;
+    color: rgb(12, 73, 80);
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 16px; */
+    /* font-weight: 600; */
+}
